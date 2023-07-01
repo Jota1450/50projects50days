@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="progress-container">
+      <div [style.width]="getProgress()" class="progress" id="progress"></div>
+      <div class="circle active">1</div>
+      <div class="circle">2</div>
+      <div class="circle">3</div>
+      <div class="circle">4</div>
+    </div>
+    <button class="btn" [disabled]="numOfActives < 2 ? true : null" id="prev" (click)="prev()">Prev</button>
+    <button class="btn" [disabled]="numOfActives === circles.length ? true : null" id="next"
+      (click)="next()">Next</button>
+  </div>
+</div>

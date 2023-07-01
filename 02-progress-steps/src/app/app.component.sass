@@ -1,0 +1,58 @@
+$line-border-fill: #3498db
+$line-border-empty: #e0e0e0
+
+@mixin center
+  display: flex
+  align-items: center
+  justify-content: center
+
+body
+  overflow: hidden
+  margin: 0
+
+.container
+  @include center
+  text-align: center
+  height: 100vh
+
+.progress-container
+  @include center
+  justify-content: space-between
+  margin-bottom: 30px
+  max-width: 100%
+  width: 351px
+  position: relative
+
+.progress
+  position: absolute
+  background-color: $line-border-fill
+  height: 4px
+  transition: 0.4s ease
+  z-index: -1
+
+.circle
+  @include center
+  background-color: white
+  color: #383838
+  border-radius: 50%
+  height: 30px
+  width: 30px
+  border: 3px solid $line-border-empty
+  transition: 0.4s ease
+
+.circle.active
+  border: 3px solid $line-border-fill
+
+button
+  cursor: pointer
+  background-color: $line-border-fill
+  border-radius: 5px
+  color: white
+  border: 0
+  margin: 0 4px
+  padding: 4px 8px
+  transition: 0.5s ease
+
+button:disabled
+  cursor: not-allowed
+  background-color: $line-border-empty
