@@ -14,18 +14,18 @@ function App() {
       panel.classList.remove("active");
     });
   }
-
   function handleClick(event) {
     if (!panels) return;
     removeActiveClasses(panels);
     event.target.classList.add("active");
   }
+  
   return (
     <div className="container">
       {jsonPanels.map((panel, index) => (
         <div
           style={{ backgroundImage: `url('${panel.img}')` }}
-          className="panel"
+          className={index === 0 ? "panel active" : "panel"}
           key={`$img-${index}`}
           onClick={handleClick}
         >
