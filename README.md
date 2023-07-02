@@ -1,6 +1,6 @@
 # 50 Projects in 50 Days - HTML/CSS and JavaScript
 
-repository based on [bradtraversy's
+Repository based on [bradtraversy's
 ](https://github.com/bradtraversy/50projects50days) course-challenge.
 
 ## Progress 2 / 50
