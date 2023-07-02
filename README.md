@@ -8,7 +8,7 @@ Repository based on [bradtraversy's
 | # | Proyect | Technology | Demo |
 | :-: |--- | :-: | :-: |
 | 1 | Expanding Cards | React   | [live](https://expanding-cards-2blr.onrender.com/) |
-| 2 | Progress Steps  | Angular | [live](https://progress-steps-x4z9.onrender.com) |
+| 2 | Progress Steps  | Angular | [live](https://progress-steps-x71i.onrender.com/) |
 | 3 | ... | ... | ... |
 | 4 | ... | ... | ... |
 | 5 | ... | ... | ... |
