@@ -9,7 +9,7 @@ Repository based on [bradtraversy's
 | :-: |--- | :-: | :-: |
 | 1 | Expanding Cards | React   | [live](https://expanding-cards-2blr.onrender.com/) |
 | 2 | Progress Steps  | Angular | [live](https://progress-steps-x71i.onrender.com/) |
-| 3 | Rotating Navigation Animation | Vue | [live]() |
+| 3 | Rotating Navigation Animation | Vue | [live](https://rotating-navigation-animation.onrender.com) |
 | 4 | ... | ... | ... |
 | 5 | ... | ... | ... |
 | 6 | ... | ... | ... |
