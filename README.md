@@ -3,13 +3,13 @@
 Repository based on [bradtraversy's
 ](https://github.com/bradtraversy/50projects50days) course-challenge.
 
-## Progress 2 / 50
+## Progress 3 / 50
 
 | # | Proyect | Technology | Demo |
 | :-: |--- | :-: | :-: |
 | 1 | Expanding Cards | React   | [live](https://expanding-cards-2blr.onrender.com/) |
 | 2 | Progress Steps  | Angular | [live](https://progress-steps-x71i.onrender.com/) |
-| 3 | ... | ... | ... |
+| 3 | Rotating Navigation Animation | Vue | [live]() |
 | 4 | ... | ... | ... |
 | 5 | ... | ... | ... |
 | 6 | ... | ... | ... |
