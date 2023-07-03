@@ -16,15 +16,15 @@ export class AppComponent implements OnInit {
 
   prev() {
     this.numOfActives--;
-    this.circles[this.numOfActives].classList.remove('active')
+    this.circles[this.numOfActives].classList.remove('active');
   }
 
   next() {
     this.numOfActives++;
-    this.circles[this.numOfActives - 1].classList.add('active')
+    this.circles[this.numOfActives - 1].classList.add('active');
   }
 
   getProgress() {
-    return `${((this.numOfActives - 1) / (this.circles.length - 1)) * 100}%`
+    return `${((this.numOfActives - 1) / (this.circles.length - 1)) * 100}%`;
   }
 }
